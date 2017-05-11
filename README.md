@@ -2,4 +2,4 @@
 
 ## scrapysiteurl
 
-Scrapy爬虫Demo，爬去网站数据并入库。
+Scrapy爬虫Demo，爬取某网站数据并入库。

@@ -4,8 +4,8 @@ from scrapysiteurl.items import DyItem,DydownloadItem
 
 class DyspiderSpider(scrapy.Spider):
     name = "dyspider"
-    #allowed_domains = ["dy2018.com"]
-    start_urls = ['http://www.dy2018.com/4/']
+    #allowed_domains = ["dy.com"]
+    start_urls = ['http://www.dy.com/4/']
 
     def parse(self, response):
         '''

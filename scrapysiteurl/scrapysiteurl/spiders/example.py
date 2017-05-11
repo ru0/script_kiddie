@@ -4,8 +4,8 @@ from scrapysiteurl.items import SiteurlItem
 
 class ExampleSpider(scrapy.Spider):
     name = "scrapysiteurl"
-    allowed_domains = ["yiguo.com"]
-    start_urls = ['https://www.yiguo.com/']
+    allowed_domains = ["domain.com"]
+    start_urls = ['https://www.domain.com/']
 
     def parse(self, response):
         self.logger.info('Parse function called on %s', response.url)
