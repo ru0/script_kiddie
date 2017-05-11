@@ -1,1 +1,0 @@
-scrapy crawl dyspider -L WARNING -s LOG_FILE=scrapy.log
